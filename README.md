@@ -23,19 +23,18 @@ this will start a minimal docker based kafka cluster comprised of zookeeper and 
 # to build and run segmentio client libs 
 ## start a producer
 in separate terminal session
-
-
-` > cd kafka-go `
-
-` > make producer   `
-
+```
+> cd kafka-go 
+> make producer   
+```
 
 ## start a consumer
 in separate terminal session
 
-` > cd kafka-go `
-
-` > make consumer   `
+```
+> cd kafka-go 
+> make consumer   
+```
 
 
 # to build and run confluent client libs
@@ -45,15 +44,16 @@ You may need to install a working gcc ( yum install devtools (or similar)  )  in
 ## start a producer
 in separate terminal session
 
-` > cd confluent `
-
-` > make producer config=./config_local.properties`
+``` 
+> cd confluent 
+> make producer config=./config_local.properties
+```
 
 ## start a consumer
 in separate terminal session
 
 
-` 
- > cd  confluent 
- > make consumer config=./config_local.properties
- `
+``` 
+> cd  confluent 
+> make consumer config=./config_local.properties
+```
