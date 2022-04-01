@@ -1,6 +1,7 @@
 # learn-go-kafka
 
-command line demo golang kafka clients to test and demo basic (very) usage different golang kafka client libs 
+some command line golang kafka clients to test and demo basic usage of different golang kafka client libs 
+
 
 ## confluent  confluent-kafka-go 
 github.com/confluentinc/confluent-kafka-go 
