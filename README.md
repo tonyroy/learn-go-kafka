@@ -18,18 +18,23 @@ from root dir of this repo :
 
 `> docker-compose up`
 
-this will instanciate a minimal docker based kafak install comprised of zookeeper and a single kafka broker.
+this will start a minimal docker based kafka cluster comprised of zookeeper and a single kafka broker.
+
 # to build and run segmentio client libs 
 ## start a producer
 in separate terminal session
 
+
 ` > cd kafka-go `
+
 ` > make producer   `
 
 
 ## start a consumer
 in separate terminal session
+
 ` > cd kafka-go `
+
 ` > make consumer   `
 
 
@@ -41,9 +46,14 @@ You may need to install a working gcc ( yum install devtools (or similar)  )  in
 in separate terminal session
 
 ` > cd confluent `
+
 ` > make producer config=./config_local.properties`
 
 ## start a consumer
 in separate terminal session
-` > cd  confluent `
-` > make consumer config=./config_local.properties`
+
+
+` 
+ > cd  confluent 
+ > make consumer config=./config_local.properties
+ `
